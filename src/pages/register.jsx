@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
   return (
-    <AuthLayout title="Register">
+    <AuthLayout title="Register" type="register">
       <FormRegister />
       <p className="text-sm mt-5">
         have an account?{" "}

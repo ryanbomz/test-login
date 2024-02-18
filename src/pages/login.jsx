@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
-    <AuthLayout title="Login">
+    <AuthLayout title="Login" type="login">
       <FormLogin />
       <p className="text-sm mt-5">
         Dont have an account?{" "}
