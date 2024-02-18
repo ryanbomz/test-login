@@ -1,0 +1,15 @@
+const Label = (props) => {
+
+    // eslint-disable-next-line react/prop-types
+    const { htmlFor, children } = props;
+    return (
+        <label
+            htmlFor={htmlFor}
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        >
+            {children}
+        </label>
+    );
+};
+
+export default Label;
